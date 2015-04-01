@@ -1,0 +1,30 @@
+{
+"beans":
+[
+	{
+		"id":"asus_computer",
+		"clazz":"Computer",
+		"parameters":
+		[
+			{"name":"name","type":"string","value":"ASUS"},
+			{"name":"cpu","type":"ref","value":"intel"}
+		]
+	},
+	{
+		"id":"intel",
+		"clazz":"IntelCpu",
+		"parameters":
+		[
+			{"name":"speed","type":"number","value":"2.6"}
+		]
+	},
+	{
+		"id":"amd",
+		"clazz":"AMDCpu",
+		"parameters":
+		[
+			{"name":"speed","type":"number","value":"2.4"}
+		]
+	}
+]
+}
